@@ -1,0 +1,9 @@
+.projectx{
+    background-color: aqua;
+    font-size: x-large;
+    font-family: fantasy;
+    display:grid;
+}
+#bup {
+    padding: 30px;
+}

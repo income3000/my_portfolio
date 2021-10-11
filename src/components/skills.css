@@ -1,0 +1,55 @@
+Home {
+   color: aliceblue;
+   background-color:black;
+   margin: 10px;
+  
+}
+.navbar{
+    color: aliceblue;
+}
+.skills{
+    text-decoration-color: white;
+    ;
+}
+#1{
+    transition: transform 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}
+p {animation-name: skillz;
+    grid-template-columns: white;
+    display: inline-block;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+   
+}
+p:hover{
+    background-color: blue;
+    text-decoration: underline;
+    animation-fill-mode: backwards;
+
+  
+}
+
+@keyframes skillz{
+  
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+}
+h2{
+    animation-name: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    padding: 10px;
+    border-radius:15px;
+}
+@keyframes myanimation{
+    0% {background-color:lightgreen};
+    25%{background-color: aliceblue;}
+    50%{background-color:red}
+    75%{background-color:yellow}
+
+
+}

@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-image: url="https://www.daxx.com/uploads/full%20stack%20development%20venn.jpg";
+}
+
+.App-logo {
+  width: 100%;
+  height: 500px;
+  pointer-events: none;
+}
+.fullstack {
+  width: 100%;
+  height: 400px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar{
+  
+  text-decoration-color: aliceblue;
+}
+span {
+ 
+  padding: 10px;
+}
+.title {
+  text-align: left;
+}
