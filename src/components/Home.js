@@ -4,10 +4,10 @@ export default function Home() {
     return (
         <div className="canvas">
              
-     <h2>Skills Page</h2>
+     <h2 id="2">Skills Page</h2>
     
          
-            <a href="https://www.comptia.org/certifications/a" rel="noerror"><p id="1">A+</p></a> 
+           
             <a href="http://www.income3000.com" rel="noerror"><p id="1">HTML/CSS</p></a>
             <a href="http://www.income3000.com" rel="noerror"><p id="1">JavaScript</p></a>
             <a href="https://codeblue.netlify.app/" rel="_blank" alt="nopage"><p id="1">React</p></a>
@@ -15,10 +15,9 @@ export default function Home() {
             <p id="1">Django</p>
             <p id="1">Ruby</p>
             <a href="https://rbcontact.herokuapp.com" rel="noreferror"><p id="1">Ruby on Rails</p></a>
-            <p id="1">Express</p>
+            <p href="https://github.com/income3000/express_restaraunts" rel="noreferror"id="1">Express</p>
             <p id="1">MongoDB</p>
-            <p id="1">Network +</p>
-            <p id="1">Securities +</p>
+         
       
         </div>
     )
