@@ -2,8 +2,8 @@ import React from 'react'
 import './skills.css'
 export default function Home() {
     return (
-        <div className="canvas">
-             
+        
+        <div>
      <h2 id="2">Skills Page</h2>
     
          
@@ -17,8 +17,8 @@ export default function Home() {
             <a href="https://rbcontact.herokuapp.com" rel="noreferror"><p id="1">Ruby on Rails</p></a>
             <p href="https://github.com/income3000/express_restaraunts" rel="noreferror"id="1">Express</p>
             <p id="1">MongoDB</p>
-         
+            </div>
       
-        </div>
+       
     )
 }

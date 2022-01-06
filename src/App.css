@@ -1,6 +1,11 @@
+* {
+
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpreview.redd.it%2Flzp4k0q4ysc41.jpg%3Fauto%3Dwebp%26s%3De8568173712dab42d19a550eb5db7c1390ac8c6c&f=1&nofb=1);
+}
+
+
 .App {
   text-align: center;
-  background-image: url="https://www.eurofunk.com/wp-content/uploads/Header-mission-control-desk-1024x576.jpg";
 }
 
 .App-logo {
